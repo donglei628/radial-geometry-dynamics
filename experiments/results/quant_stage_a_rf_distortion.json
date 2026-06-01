@@ -1,0 +1,1711 @@
+{
+  "gpt2": {
+    "model_key": "gpt2",
+    "model_name": "gpt2",
+    "model_type": "gpt2",
+    "hidden_size": 768,
+    "num_layers": 12,
+    "layers": [
+      {
+        "layer": 0,
+        "R_F_formula": 0.0144308643431486,
+        "distortion_ternary_linear": 0.3482795211887995,
+        "distortion_int8_linear": 0.00026612519003107657,
+        "distortion_int4_linear": 0.053005579154678406,
+        "distortion_ternary_nonlinear": 0.27791347237150266,
+        "distortion_int4_nonlinear": 0.07937340572023661
+      },
+      {
+        "layer": 1,
+        "R_F_formula": 0.03616913226012844,
+        "distortion_ternary_linear": 0.819919618533287,
+        "distortion_int8_linear": 0.00017896448431437175,
+        "distortion_int4_linear": 0.030263808534297276,
+        "distortion_ternary_nonlinear": 0.6467953391586531,
+        "distortion_int4_nonlinear": 0.03661216469020849
+      },
+      {
+        "layer": 2,
+        "R_F_formula": 0.009992693872409487,
+        "distortion_ternary_linear": 0.749958936035456,
+        "distortion_int8_linear": 0.00013035253909717207,
+        "distortion_int4_linear": 0.03169924146147264,
+        "distortion_ternary_nonlinear": 0.49752284613328185,
+        "distortion_int4_nonlinear": 0.0548621696207095
+      },
+      {
+        "layer": 3,
+        "R_F_formula": 0.012280710143068087,
+        "distortion_ternary_linear": 0.5113066940266415,
+        "distortion_int8_linear": 0.00026740261510534635,
+        "distortion_int4_linear": 0.06723388598647431,
+        "distortion_ternary_nonlinear": 0.4248486415330124,
+        "distortion_int4_nonlinear": 0.08052962539538475
+      },
+      {
+        "layer": 4,
+        "R_F_formula": 0.0358273787612117,
+        "distortion_ternary_linear": 0.40565307996034833,
+        "distortion_int8_linear": 0.00016293384672252278,
+        "distortion_int4_linear": 0.0413814600727334,
+        "distortion_ternary_nonlinear": 0.27457527622253536,
+        "distortion_int4_nonlinear": 0.011517928258392178
+      },
+      {
+        "layer": 5,
+        "R_F_formula": 0.01678371425213735,
+        "distortion_ternary_linear": 0.40883379559729704,
+        "distortion_int8_linear": 0.0001323135981741477,
+        "distortion_int4_linear": 0.041331165897352314,
+        "distortion_ternary_nonlinear": 0.2671679656755746,
+        "distortion_int4_nonlinear": 0.013671158665471653
+      },
+      {
+        "layer": 6,
+        "R_F_formula": 0.023060778768470968,
+        "distortion_ternary_linear": 0.43359048913330744,
+        "distortion_int8_linear": 0.00015313528911099268,
+        "distortion_int4_linear": 0.04907567198665511,
+        "distortion_ternary_nonlinear": 0.31750011488986396,
+        "distortion_int4_nonlinear": 0.023425143195261074
+      },
+      {
+        "layer": 7,
+        "R_F_formula": 0.022372971451121763,
+        "distortion_ternary_linear": 0.4569690334718559,
+        "distortion_int8_linear": 0.00015729832868959868,
+        "distortion_int4_linear": 0.05149971241834406,
+        "distortion_ternary_nonlinear": 0.3413950501785715,
+        "distortion_int4_nonlinear": 0.02726064313773799
+      },
+      {
+        "layer": 8,
+        "R_F_formula": 0.02587195152578376,
+        "distortion_ternary_linear": 0.4775644449874485,
+        "distortion_int8_linear": 0.00018185521485726295,
+        "distortion_int4_linear": 0.059341254278272935,
+        "distortion_ternary_nonlinear": 0.3940655121166641,
+        "distortion_int4_nonlinear": 0.03820522178305087
+      },
+      {
+        "layer": 9,
+        "R_F_formula": 0.02649973418835473,
+        "distortion_ternary_linear": 0.5005857405304999,
+        "distortion_int8_linear": 0.0001900314472633434,
+        "distortion_int4_linear": 0.061426197684317785,
+        "distortion_ternary_nonlinear": 0.3950309712266038,
+        "distortion_int4_nonlinear": 0.04396383742547481
+      },
+      {
+        "layer": 10,
+        "R_F_formula": 0.043630291231292875,
+        "distortion_ternary_linear": 0.4955718243889266,
+        "distortion_int8_linear": 0.0002676220553855823,
+        "distortion_int4_linear": 0.09932619604666185,
+        "distortion_ternary_nonlinear": 0.2674860626889467,
+        "distortion_int4_nonlinear": 0.1665645637817089
+      },
+      {
+        "layer": 11,
+        "R_F_formula": 0.03748767374933482,
+        "distortion_ternary_linear": 0.5031794453222712,
+        "distortion_int8_linear": 0.00034018114246683987,
+        "distortion_int4_linear": 0.0793545816475292,
+        "distortion_ternary_nonlinear": 0.20969482522817443,
+        "distortion_int4_nonlinear": 0.034460306935769965
+      }
+    ],
+    "correlations": {
+      "distortion_ternary_linear": {
+        "spearman_rho": 0.10489510489510491,
+        "spearman_p": 0.7456094809807079,
+        "pearson_r": 0.06875299278047722,
+        "pearson_p": 0.831865040617938
+      },
+      "distortion_int8_linear": {
+        "spearman_rho": 0.4825174825174825,
+        "spearman_p": 0.11210929146889191,
+        "pearson_r": 0.32130171938253,
+        "pearson_p": 0.30850892752898856
+      },
+      "distortion_int4_linear": {
+        "spearman_rho": 0.32867132867132864,
+        "spearman_p": 0.2969041156887642,
+        "pearson_r": 0.44459315558346135,
+        "pearson_p": 0.14758450107696752
+      },
+      "distortion_ternary_nonlinear": {
+        "spearman_rho": -0.35664335664335667,
+        "spearman_p": 0.25513775175895714,
+        "pearson_r": -0.16066954213351073,
+        "pearson_p": 0.6178994065690737
+      },
+      "distortion_int4_nonlinear": {
+        "spearman_rho": -0.1328671328671329,
+        "spearman_p": 0.6805975082860818,
+        "pearson_r": 0.1993993418687845,
+        "pearson_p": 0.5343914768593323
+      }
+    }
+  },
+  "pythia-410m": {
+    "model_key": "pythia-410m",
+    "model_name": "EleutherAI/pythia-410m",
+    "model_type": "pythia",
+    "hidden_size": 1024,
+    "num_layers": 24,
+    "layers": [
+      {
+        "layer": 0,
+        "R_F_formula": 0.02725326642445668,
+        "distortion_ternary_linear": 0.1976406575159362,
+        "distortion_int8_linear": 2.2231873048317953e-05,
+        "distortion_int4_linear": 0.007338009661086968,
+        "distortion_ternary_nonlinear": 0.21566785203991615,
+        "distortion_int4_nonlinear": 0.009669173376075502
+      },
+      {
+        "layer": 1,
+        "R_F_formula": 0.00457436861065989,
+        "distortion_ternary_linear": 0.38985705759518774,
+        "distortion_int8_linear": 0.00010707143504431487,
+        "distortion_int4_linear": 0.03606580006475605,
+        "distortion_ternary_nonlinear": 0.3709926963369919,
+        "distortion_int4_nonlinear": 0.03761376723651559
+      },
+      {
+        "layer": 2,
+        "R_F_formula": 0.11608512111301555,
+        "distortion_ternary_linear": 0.3492619881205209,
+        "distortion_int8_linear": 7.604006112655855e-05,
+        "distortion_int4_linear": 0.024995150423058866,
+        "distortion_ternary_nonlinear": 0.34104191939030576,
+        "distortion_int4_nonlinear": 0.025028146247315496
+      },
+      {
+        "layer": 3,
+        "R_F_formula": 0.22601309313243093,
+        "distortion_ternary_linear": 0.346548472612478,
+        "distortion_int8_linear": 9.163349379307866e-05,
+        "distortion_int4_linear": 0.03018045075718275,
+        "distortion_ternary_nonlinear": 0.36588370236101025,
+        "distortion_int4_nonlinear": 0.03235218666658212
+      },
+      {
+        "layer": 4,
+        "R_F_formula": 0.18437719761538265,
+        "distortion_ternary_linear": 0.3573831317368222,
+        "distortion_int8_linear": 8.759920996697013e-05,
+        "distortion_int4_linear": 0.02844953076181641,
+        "distortion_ternary_nonlinear": 0.3699455856489418,
+        "distortion_int4_nonlinear": 0.028132579597936018
+      },
+      {
+        "layer": 5,
+        "R_F_formula": 0.22051063623467104,
+        "distortion_ternary_linear": 0.5764136337039021,
+        "distortion_int8_linear": 4.502015736295909e-05,
+        "distortion_int4_linear": 0.015031540435339236,
+        "distortion_ternary_nonlinear": 0.6206271174989304,
+        "distortion_int4_nonlinear": 0.0130286643915799
+      },
+      {
+        "layer": 6,
+        "R_F_formula": 0.028482718946868647,
+        "distortion_ternary_linear": 0.7373131363236352,
+        "distortion_int8_linear": 4.789733380636866e-05,
+        "distortion_int4_linear": 0.0171921608119621,
+        "distortion_ternary_nonlinear": 0.7995056912433072,
+        "distortion_int4_nonlinear": 0.018125356480986666
+      },
+      {
+        "layer": 7,
+        "R_F_formula": 0.11049259647150657,
+        "distortion_ternary_linear": 0.5382616547370713,
+        "distortion_int8_linear": 7.845227412596955e-05,
+        "distortion_int4_linear": 0.027020509381553075,
+        "distortion_ternary_nonlinear": 0.5391745689959646,
+        "distortion_int4_nonlinear": 0.02396393498943279
+      },
+      {
+        "layer": 8,
+        "R_F_formula": 0.15166863622969354,
+        "distortion_ternary_linear": 0.3610519144757031,
+        "distortion_int8_linear": 9.969427096932463e-05,
+        "distortion_int4_linear": 0.03175004081930185,
+        "distortion_ternary_nonlinear": 0.3387202711568837,
+        "distortion_int4_nonlinear": 0.025157553380546642
+      },
+      {
+        "layer": 9,
+        "R_F_formula": 0.2410972913204083,
+        "distortion_ternary_linear": 0.34357528243294577,
+        "distortion_int8_linear": 9.223664468545505e-05,
+        "distortion_int4_linear": 0.030416180042102114,
+        "distortion_ternary_nonlinear": 0.33220458579413215,
+        "distortion_int4_nonlinear": 0.02771281442564872
+      },
+      {
+        "layer": 10,
+        "R_F_formula": 0.326725417569176,
+        "distortion_ternary_linear": 0.3314470819188499,
+        "distortion_int8_linear": 8.267008306167571e-05,
+        "distortion_int4_linear": 0.02732666844093909,
+        "distortion_ternary_nonlinear": 0.3222318301524455,
+        "distortion_int4_nonlinear": 0.0266233636669257
+      },
+      {
+        "layer": 11,
+        "R_F_formula": 0.39409283754821184,
+        "distortion_ternary_linear": 0.32592210711561986,
+        "distortion_int8_linear": 7.783131001792394e-05,
+        "distortion_int4_linear": 0.02561061160078343,
+        "distortion_ternary_nonlinear": 0.33031898215812416,
+        "distortion_int4_nonlinear": 0.026001796317124386
+      },
+      {
+        "layer": 12,
+        "R_F_formula": 0.3045782347660196,
+        "distortion_ternary_linear": 0.3396358134693947,
+        "distortion_int8_linear": 9.343493200316777e-05,
+        "distortion_int4_linear": 0.030855970331405514,
+        "distortion_ternary_nonlinear": 0.3386128346671532,
+        "distortion_int4_nonlinear": 0.02997091091661777
+      },
+      {
+        "layer": 13,
+        "R_F_formula": 0.186349959585269,
+        "distortion_ternary_linear": 0.35280462934766976,
+        "distortion_int8_linear": 9.33661947700869e-05,
+        "distortion_int4_linear": 0.030834368456413797,
+        "distortion_ternary_nonlinear": 0.336129484053211,
+        "distortion_int4_nonlinear": 0.028262204974936433
+      },
+      {
+        "layer": 14,
+        "R_F_formula": 0.1488412870598255,
+        "distortion_ternary_linear": 0.36305784513472583,
+        "distortion_int8_linear": 9.48965317285951e-05,
+        "distortion_int4_linear": 0.03135378553246686,
+        "distortion_ternary_nonlinear": 0.35428602090269107,
+        "distortion_int4_nonlinear": 0.029169984955244838
+      },
+      {
+        "layer": 15,
+        "R_F_formula": 0.15914604939256266,
+        "distortion_ternary_linear": 0.35723743033157257,
+        "distortion_int8_linear": 9.35077806663554e-05,
+        "distortion_int4_linear": 0.03083243884606991,
+        "distortion_ternary_nonlinear": 0.33117840170313395,
+        "distortion_int4_nonlinear": 0.027157441190059424
+      },
+      {
+        "layer": 16,
+        "R_F_formula": 0.13005352912784812,
+        "distortion_ternary_linear": 0.35705408197180144,
+        "distortion_int8_linear": 0.00010418302367622195,
+        "distortion_int4_linear": 0.0341864012710586,
+        "distortion_ternary_nonlinear": 0.3059017082030248,
+        "distortion_int4_nonlinear": 0.026142982855775532
+      },
+      {
+        "layer": 17,
+        "R_F_formula": 0.13352557184989525,
+        "distortion_ternary_linear": 0.34951129838094824,
+        "distortion_int8_linear": 0.00010425517308369637,
+        "distortion_int4_linear": 0.03523494383791685,
+        "distortion_ternary_nonlinear": 0.27745229216936673,
+        "distortion_int4_nonlinear": 0.03230806636981866
+      },
+      {
+        "layer": 18,
+        "R_F_formula": 0.07647440589639729,
+        "distortion_ternary_linear": 0.36466082694987445,
+        "distortion_int8_linear": 9.857635650801447e-05,
+        "distortion_int4_linear": 0.032342802143817864,
+        "distortion_ternary_nonlinear": 0.3126613523580034,
+        "distortion_int4_nonlinear": 0.025645638005297948
+      },
+      {
+        "layer": 19,
+        "R_F_formula": 0.08910599968397645,
+        "distortion_ternary_linear": 0.36986618800171833,
+        "distortion_int8_linear": 9.072957990738132e-05,
+        "distortion_int4_linear": 0.03002761328634518,
+        "distortion_ternary_nonlinear": 0.30978415214724003,
+        "distortion_int4_nonlinear": 0.024776468256193458
+      },
+      {
+        "layer": 20,
+        "R_F_formula": 0.0825319538536677,
+        "distortion_ternary_linear": 0.3740864446491224,
+        "distortion_int8_linear": 9.635806443811718e-05,
+        "distortion_int4_linear": 0.03155853456709289,
+        "distortion_ternary_nonlinear": 0.33925871442216343,
+        "distortion_int4_nonlinear": 0.027327099416216027
+      },
+      {
+        "layer": 21,
+        "R_F_formula": 0.0864837626097484,
+        "distortion_ternary_linear": 0.3842648052151555,
+        "distortion_int8_linear": 0.0001001088319925437,
+        "distortion_int4_linear": 0.03306469760053954,
+        "distortion_ternary_nonlinear": 0.3766603817507238,
+        "distortion_int4_nonlinear": 0.029991060203454573
+      },
+      {
+        "layer": 22,
+        "R_F_formula": 0.07749575739736415,
+        "distortion_ternary_linear": 0.4574965673361021,
+        "distortion_int8_linear": 0.0001126037261116748,
+        "distortion_int4_linear": 0.03706153753825732,
+        "distortion_ternary_nonlinear": 0.8606207255581637,
+        "distortion_int4_nonlinear": 0.04022578084920671
+      },
+      {
+        "layer": 23,
+        "R_F_formula": 0.053839965277580386,
+        "distortion_ternary_linear": 0.3874277664504791,
+        "distortion_int8_linear": 9.123778681022718e-05,
+        "distortion_int4_linear": 0.03047342904465362,
+        "distortion_ternary_nonlinear": 0.6020331858102517,
+        "distortion_int4_nonlinear": 0.02665721848155595
+      }
+    ],
+    "correlations": {
+      "distortion_ternary_linear": {
+        "spearman_rho": -0.5660869565217391,
+        "spearman_p": 0.003932855685640965,
+        "pearson_r": -0.2268771728375673,
+        "pearson_p": 0.2863725874578553
+      },
+      "distortion_int8_linear": {
+        "spearman_rho": -0.19304347826086957,
+        "spearman_p": 0.36611583497113964,
+        "pearson_r": 0.025786739108569365,
+        "pearson_p": 0.9047966132441072
+      },
+      "distortion_int4_linear": {
+        "spearman_rho": -0.22347826086956518,
+        "spearman_p": 0.2938468714348546,
+        "pearson_r": 0.003957484326331556,
+        "pearson_p": 0.9853575259223186
+      },
+      "distortion_ternary_nonlinear": {
+        "spearman_rho": -0.21826086956521737,
+        "spearman_p": 0.30555439158449427,
+        "pearson_r": -0.2573159411224436,
+        "pearson_p": 0.22480102099010407
+      },
+      "distortion_int4_nonlinear": {
+        "spearman_rho": 0.1226086956521739,
+        "spearman_p": 0.5681672657020507,
+        "pearson_r": 0.03951337961398289,
+        "pearson_p": 0.854552743701561
+      }
+    }
+  },
+  "pythia-1b": {
+    "model_key": "pythia-1b",
+    "model_name": "EleutherAI/pythia-1b",
+    "model_type": "pythia",
+    "hidden_size": 2048,
+    "num_layers": 16,
+    "layers": [
+      {
+        "layer": 0,
+        "R_F_formula": 0.00542567806396089,
+        "distortion_ternary_linear": 0.19985449713447456,
+        "distortion_int8_linear": 2.5523236822977068e-05,
+        "distortion_int4_linear": 0.008398481518270832,
+        "distortion_ternary_nonlinear": 0.20636761511809576,
+        "distortion_int4_nonlinear": 0.009306809658600113
+      },
+      {
+        "layer": 1,
+        "R_F_formula": 0.0006676730906401842,
+        "distortion_ternary_linear": 0.4011482500230503,
+        "distortion_int8_linear": 0.00015429160795203074,
+        "distortion_int4_linear": 0.058382591470453646,
+        "distortion_ternary_nonlinear": 0.45797044515300617,
+        "distortion_int4_nonlinear": 0.12707365248247376
+      },
+      {
+        "layer": 2,
+        "R_F_formula": 0.026997837251971878,
+        "distortion_ternary_linear": 0.39047907368978835,
+        "distortion_int8_linear": 0.00017307077553852657,
+        "distortion_int4_linear": 0.05585230356955906,
+        "distortion_ternary_nonlinear": 0.4421571341897864,
+        "distortion_int4_nonlinear": 0.0519573674823014
+      },
+      {
+        "layer": 3,
+        "R_F_formula": 0.028308896392742786,
+        "distortion_ternary_linear": 0.7663510624631827,
+        "distortion_int8_linear": 2.866215504985623e-05,
+        "distortion_int4_linear": 0.011031305110345124,
+        "distortion_ternary_nonlinear": 0.757028571205311,
+        "distortion_int4_nonlinear": 0.010366252044940766
+      },
+      {
+        "layer": 4,
+        "R_F_formula": 0.04587559849650632,
+        "distortion_ternary_linear": 0.46384784152323366,
+        "distortion_int8_linear": 0.00010808762410497122,
+        "distortion_int4_linear": 0.03966456944280263,
+        "distortion_ternary_nonlinear": 0.6540052933092443,
+        "distortion_int4_nonlinear": 0.06433940517074355
+      },
+      {
+        "layer": 5,
+        "R_F_formula": 0.043003574801706745,
+        "distortion_ternary_linear": 0.43710569640659747,
+        "distortion_int8_linear": 0.00011231925533910599,
+        "distortion_int4_linear": 0.038442621560234314,
+        "distortion_ternary_nonlinear": 0.4575479145769821,
+        "distortion_int4_nonlinear": 0.03089974113771126
+      },
+      {
+        "layer": 6,
+        "R_F_formula": 0.19556677163456418,
+        "distortion_ternary_linear": 0.3424981787111778,
+        "distortion_int8_linear": 0.00011365683836113413,
+        "distortion_int4_linear": 0.03689561817984253,
+        "distortion_ternary_nonlinear": 0.3313639220029877,
+        "distortion_int4_nonlinear": 0.029780709739740712
+      },
+      {
+        "layer": 7,
+        "R_F_formula": 0.15986183566312276,
+        "distortion_ternary_linear": 0.3408049045832053,
+        "distortion_int8_linear": 0.00010005856811563457,
+        "distortion_int4_linear": 0.03286623368286331,
+        "distortion_ternary_nonlinear": 0.30745442876124984,
+        "distortion_int4_nonlinear": 0.02208973178244413
+      },
+      {
+        "layer": 8,
+        "R_F_formula": 0.15257784517197426,
+        "distortion_ternary_linear": 0.35250789931382104,
+        "distortion_int8_linear": 0.00011725655638239762,
+        "distortion_int4_linear": 0.03855521922572415,
+        "distortion_ternary_nonlinear": 0.3181444526896206,
+        "distortion_int4_nonlinear": 0.027031125971012808
+      },
+      {
+        "layer": 9,
+        "R_F_formula": 0.10365338526000514,
+        "distortion_ternary_linear": 0.3538629500193464,
+        "distortion_int8_linear": 0.0001129655119907966,
+        "distortion_int4_linear": 0.0369348388377751,
+        "distortion_ternary_nonlinear": 0.30843831867382265,
+        "distortion_int4_nonlinear": 0.02805426594112277
+      },
+      {
+        "layer": 10,
+        "R_F_formula": 0.034011575896979104,
+        "distortion_ternary_linear": 0.36090862086561515,
+        "distortion_int8_linear": 0.00011297103734925966,
+        "distortion_int4_linear": 0.037113050169321246,
+        "distortion_ternary_nonlinear": 0.31944475596547955,
+        "distortion_int4_nonlinear": 0.02835587374796291
+      },
+      {
+        "layer": 11,
+        "R_F_formula": 0.024089004019490746,
+        "distortion_ternary_linear": 0.37162937892185577,
+        "distortion_int8_linear": 0.0001273135868363729,
+        "distortion_int4_linear": 0.04180143046376742,
+        "distortion_ternary_nonlinear": 0.30057300705140355,
+        "distortion_int4_nonlinear": 0.03147059023636764
+      },
+      {
+        "layer": 12,
+        "R_F_formula": 0.051745753421478365,
+        "distortion_ternary_linear": 0.3751392753601744,
+        "distortion_int8_linear": 0.0001141174055987282,
+        "distortion_int4_linear": 0.037351551093495215,
+        "distortion_ternary_nonlinear": 0.3276040302202913,
+        "distortion_int4_nonlinear": 0.03489335217572495
+      },
+      {
+        "layer": 13,
+        "R_F_formula": 0.0958536355182996,
+        "distortion_ternary_linear": 0.37951298561002345,
+        "distortion_int8_linear": 0.00011164325858430291,
+        "distortion_int4_linear": 0.03718912695534762,
+        "distortion_ternary_nonlinear": 0.4094537568095927,
+        "distortion_int4_nonlinear": 0.04054104547027667
+      },
+      {
+        "layer": 14,
+        "R_F_formula": 0.09330973522210513,
+        "distortion_ternary_linear": 0.41175477517820747,
+        "distortion_int8_linear": 0.00012327446406228958,
+        "distortion_int4_linear": 0.04300185502968858,
+        "distortion_ternary_nonlinear": 0.7388135610824242,
+        "distortion_int4_nonlinear": 0.06065943343641409
+      },
+      {
+        "layer": 15,
+        "R_F_formula": 0.07177131945220082,
+        "distortion_ternary_linear": 0.4657336549678234,
+        "distortion_int8_linear": 0.00010177792979721857,
+        "distortion_int4_linear": 0.0346100465886489,
+        "distortion_ternary_nonlinear": 1.0132265767613897,
+        "distortion_int4_nonlinear": 0.035172577431890936
+      }
+    ],
+    "correlations": {
+      "distortion_ternary_linear": {
+        "spearman_rho": -0.3,
+        "spearman_p": 0.25893645256249886,
+        "pearson_r": -0.19501088391813795,
+        "pearson_p": 0.4692116382320283
+      },
+      "distortion_int8_linear": {
+        "spearman_rho": -0.14411764705882352,
+        "spearman_p": 0.5943782881736932,
+        "pearson_r": 0.08369433043425277,
+        "pearson_p": 0.7579592143550672
+      },
+      "distortion_int4_linear": {
+        "spearman_rho": -0.2735294117647059,
+        "spearman_p": 0.3053231563074052,
+        "pearson_r": 0.017026899513169234,
+        "pearson_p": 0.9500955621518086
+      },
+      "distortion_ternary_nonlinear": {
+        "spearman_rho": -0.07058823529411765,
+        "spearman_p": 0.7950393023376279,
+        "pearson_r": -0.132892122353924,
+        "pearson_p": 0.6236849187379478
+      },
+      "distortion_int4_nonlinear": {
+        "spearman_rho": -0.17941176470588235,
+        "spearman_p": 0.5061395399904385,
+        "pearson_r": -0.27375661282503627,
+        "pearson_p": 0.30490546759040915
+      }
+    }
+  },
+  "tinyllama": {
+    "model_key": "tinyllama",
+    "model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "model_type": "swiglu",
+    "hidden_size": 2048,
+    "num_layers": 22,
+    "layers": [
+      {
+        "layer": 0,
+        "R_F_formula": 0.22599736972744233,
+        "distortion_ternary_linear": 0.3057766735267374,
+        "distortion_int8_linear": 7.050160809129219e-05,
+        "distortion_int4_linear": 0.02325158613783954,
+        "distortion_ternary_nonlinear": 0.2804691844488557,
+        "distortion_int4_nonlinear": 0.014784270157267534
+      },
+      {
+        "layer": 1,
+        "R_F_formula": 0.035457159210549996,
+        "distortion_ternary_linear": 0.35957171010321415,
+        "distortion_int8_linear": 0.00010002351053512127,
+        "distortion_int4_linear": 0.032473158593968744,
+        "distortion_ternary_nonlinear": 0.36345789864689504,
+        "distortion_int4_nonlinear": 0.0315224140638765
+      },
+      {
+        "layer": 2,
+        "R_F_formula": 0.05987190002120659,
+        "distortion_ternary_linear": 0.35440277782976376,
+        "distortion_int8_linear": 9.747277292421185e-05,
+        "distortion_int4_linear": 0.029979767246609456,
+        "distortion_ternary_nonlinear": 0.6365776488126379,
+        "distortion_int4_nonlinear": 0.022365828772727518
+      },
+      {
+        "layer": 3,
+        "R_F_formula": 0.21252868419430376,
+        "distortion_ternary_linear": 0.32488668173328844,
+        "distortion_int8_linear": 8.261144301588251e-05,
+        "distortion_int4_linear": 0.026797223461117643,
+        "distortion_ternary_nonlinear": 0.35005942835285303,
+        "distortion_int4_nonlinear": 0.03090026760586631
+      },
+      {
+        "layer": 4,
+        "R_F_formula": 0.20280632267485427,
+        "distortion_ternary_linear": 0.3264793755347827,
+        "distortion_int8_linear": 7.55762847895882e-05,
+        "distortion_int4_linear": 0.02477585532622157,
+        "distortion_ternary_nonlinear": 0.3549589991598239,
+        "distortion_int4_nonlinear": 0.028573271102948876
+      },
+      {
+        "layer": 5,
+        "R_F_formula": 0.21625200052034027,
+        "distortion_ternary_linear": 0.3227459754150468,
+        "distortion_int8_linear": 7.850094366470474e-05,
+        "distortion_int4_linear": 0.02539084075890023,
+        "distortion_ternary_nonlinear": 0.3478581303804228,
+        "distortion_int4_nonlinear": 0.029167078801057716
+      },
+      {
+        "layer": 6,
+        "R_F_formula": 0.2644938188787528,
+        "distortion_ternary_linear": 0.3214274597995954,
+        "distortion_int8_linear": 8.323840418737921e-05,
+        "distortion_int4_linear": 0.026707480927936005,
+        "distortion_ternary_nonlinear": 0.35038699370521,
+        "distortion_int4_nonlinear": 0.03181936702601805
+      },
+      {
+        "layer": 7,
+        "R_F_formula": 0.2670192874059114,
+        "distortion_ternary_linear": 0.3267667552259199,
+        "distortion_int8_linear": 0.00010148351386173637,
+        "distortion_int4_linear": 0.02897213816578025,
+        "distortion_ternary_nonlinear": 0.37672485589684046,
+        "distortion_int4_nonlinear": 0.034323089907443226
+      },
+      {
+        "layer": 8,
+        "R_F_formula": 0.24354423820405635,
+        "distortion_ternary_linear": 0.3262802543419238,
+        "distortion_int8_linear": 9.293748058308444e-05,
+        "distortion_int4_linear": 0.0292040653599002,
+        "distortion_ternary_nonlinear": 0.3473118697359673,
+        "distortion_int4_nonlinear": 0.034025510733532376
+      },
+      {
+        "layer": 9,
+        "R_F_formula": 0.3035293520402357,
+        "distortion_ternary_linear": 0.31785361549123803,
+        "distortion_int8_linear": 7.883111991565751e-05,
+        "distortion_int4_linear": 0.025681486950571725,
+        "distortion_ternary_nonlinear": 0.3451669151493697,
+        "distortion_int4_nonlinear": 0.029957750525637115
+      },
+      {
+        "layer": 10,
+        "R_F_formula": 0.2459564169936851,
+        "distortion_ternary_linear": 0.3170620319256956,
+        "distortion_int8_linear": 7.510038403683796e-05,
+        "distortion_int4_linear": 0.024011072788789063,
+        "distortion_ternary_nonlinear": 0.34178186106786657,
+        "distortion_int4_nonlinear": 0.02786754984676355
+      },
+      {
+        "layer": 11,
+        "R_F_formula": 0.2492788455834607,
+        "distortion_ternary_linear": 0.3225127774801813,
+        "distortion_int8_linear": 7.575912730239747e-05,
+        "distortion_int4_linear": 0.024744725870242616,
+        "distortion_ternary_nonlinear": 0.34539671198545474,
+        "distortion_int4_nonlinear": 0.02793116462724679
+      },
+      {
+        "layer": 12,
+        "R_F_formula": 0.2911787128332345,
+        "distortion_ternary_linear": 0.3265643910428097,
+        "distortion_int8_linear": 8.364661382713909e-05,
+        "distortion_int4_linear": 0.02701134652377754,
+        "distortion_ternary_nonlinear": 0.34146174059639617,
+        "distortion_int4_nonlinear": 0.030622755739479767
+      },
+      {
+        "layer": 13,
+        "R_F_formula": 0.2240187931366661,
+        "distortion_ternary_linear": 0.33520014462693987,
+        "distortion_int8_linear": 9.134179908581551e-05,
+        "distortion_int4_linear": 0.029182206452769095,
+        "distortion_ternary_nonlinear": 0.34961013976706556,
+        "distortion_int4_nonlinear": 0.03167821123041808
+      },
+      {
+        "layer": 14,
+        "R_F_formula": 0.21813653409471204,
+        "distortion_ternary_linear": 0.3406788140533942,
+        "distortion_int8_linear": 9.330878364674946e-05,
+        "distortion_int4_linear": 0.02983293416320576,
+        "distortion_ternary_nonlinear": 0.3548053139673899,
+        "distortion_int4_nonlinear": 0.03242106552781264
+      },
+      {
+        "layer": 15,
+        "R_F_formula": 0.11417734501175252,
+        "distortion_ternary_linear": 0.3508847787521596,
+        "distortion_int8_linear": 9.76333228427997e-05,
+        "distortion_int4_linear": 0.030765063875716352,
+        "distortion_ternary_nonlinear": 0.3535550257634736,
+        "distortion_int4_nonlinear": 0.031327122938316944
+      },
+      {
+        "layer": 16,
+        "R_F_formula": 0.14972707601096283,
+        "distortion_ternary_linear": 0.34994797887269763,
+        "distortion_int8_linear": 9.783357073868823e-05,
+        "distortion_int4_linear": 0.030723694268610297,
+        "distortion_ternary_nonlinear": 0.3562078118563471,
+        "distortion_int4_nonlinear": 0.03230140576588842
+      },
+      {
+        "layer": 17,
+        "R_F_formula": 0.034175783279377994,
+        "distortion_ternary_linear": 0.3642829899965524,
+        "distortion_int8_linear": 9.898467851363383e-05,
+        "distortion_int4_linear": 0.03165943198785801,
+        "distortion_ternary_nonlinear": 0.3613252416073621,
+        "distortion_int4_nonlinear": 0.031434434882370604
+      },
+      {
+        "layer": 18,
+        "R_F_formula": 0.007956931622574513,
+        "distortion_ternary_linear": 0.36823313599958635,
+        "distortion_int8_linear": 9.788168035219646e-05,
+        "distortion_int4_linear": 0.031527306584535494,
+        "distortion_ternary_nonlinear": 0.36111739747910415,
+        "distortion_int4_nonlinear": 0.030932721202973634
+      },
+      {
+        "layer": 19,
+        "R_F_formula": 0.003052573828089195,
+        "distortion_ternary_linear": 0.37231300956597313,
+        "distortion_int8_linear": 9.639085493449728e-05,
+        "distortion_int4_linear": 0.031548419211298154,
+        "distortion_ternary_nonlinear": 0.3645596718660594,
+        "distortion_int4_nonlinear": 0.03089588426543678
+      },
+      {
+        "layer": 20,
+        "R_F_formula": 0.04884798168666685,
+        "distortion_ternary_linear": 0.37281341486318265,
+        "distortion_int8_linear": 0.00010281349307770258,
+        "distortion_int4_linear": 0.03294759540124574,
+        "distortion_ternary_nonlinear": 0.3652489637364091,
+        "distortion_int4_nonlinear": 0.032236189138938165
+      },
+      {
+        "layer": 21,
+        "R_F_formula": 0.11025581781375639,
+        "distortion_ternary_linear": 0.40133276182876576,
+        "distortion_int8_linear": 0.00011261236162220458,
+        "distortion_int4_linear": 0.035432757859177676,
+        "distortion_ternary_nonlinear": 1.1004157811252142,
+        "distortion_int4_nonlinear": 0.01897384872605317
+      }
+    ],
+    "correlations": {
+      "distortion_ternary_linear": {
+        "spearman_rho": -0.805759457933371,
+        "spearman_p": 6.020924577066402e-06,
+        "pearson_r": -0.8329164107392493,
+        "pearson_p": 1.5059539276958786e-06
+      },
+      "distortion_int8_linear": {
+        "spearman_rho": -0.5561829474872955,
+        "spearman_p": 0.0071889533434648925,
+        "pearson_r": -0.6456310602165095,
+        "pearson_p": 0.0011734314473845478
+      },
+      "distortion_int4_linear": {
+        "spearman_rho": -0.7391304347826088,
+        "spearman_p": 8.504578431005562e-05,
+        "pearson_r": -0.7366555734294514,
+        "pearson_p": 9.241080065810425e-05
+      },
+      "distortion_ternary_nonlinear": {
+        "spearman_rho": -0.681535855448899,
+        "spearman_p": 0.00047824465233833814,
+        "pearson_r": -0.25380403658002015,
+        "pearson_p": 0.2543931123547356
+      },
+      "distortion_int4_nonlinear": {
+        "spearman_rho": 0.010728402032749858,
+        "spearman_p": 0.9622067945199976,
+        "pearson_r": 0.03409398917886157,
+        "pearson_p": 0.880272596151941
+      }
+    }
+  },
+  "qwen2.5-0.5b": {
+    "model_key": "qwen2.5-0.5b",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "model_type": "swiglu",
+    "hidden_size": 896,
+    "num_layers": 24,
+    "layers": [
+      {
+        "layer": 0,
+        "R_F_formula": 0.004832917802763185,
+        "distortion_ternary_linear": 0.3464107686665544,
+        "distortion_int8_linear": 8.52065431894566e-05,
+        "distortion_int4_linear": 0.02756932696504738,
+        "distortion_ternary_nonlinear": 0.378075559047619,
+        "distortion_int4_nonlinear": 0.03994058792428066
+      },
+      {
+        "layer": 1,
+        "R_F_formula": 0.23771607441793188,
+        "distortion_ternary_linear": 0.36020039253345243,
+        "distortion_int8_linear": 0.00010470937807111516,
+        "distortion_int4_linear": 0.03406137207073299,
+        "distortion_ternary_nonlinear": 0.3753376632275172,
+        "distortion_int4_nonlinear": 0.035802667498152876
+      },
+      {
+        "layer": 2,
+        "R_F_formula": 0.20325574296557292,
+        "distortion_ternary_linear": 0.3834013604369916,
+        "distortion_int8_linear": 0.0001171453949710409,
+        "distortion_int4_linear": 0.03587853100464626,
+        "distortion_ternary_nonlinear": 0.82609485561596,
+        "distortion_int4_nonlinear": 0.03202354946413953
+      },
+      {
+        "layer": 3,
+        "R_F_formula": 0.47639549982221907,
+        "distortion_ternary_linear": 0.3204570465331429,
+        "distortion_int8_linear": 9.030445602049015e-05,
+        "distortion_int4_linear": 0.028035565948194018,
+        "distortion_ternary_nonlinear": 0.37534640363598026,
+        "distortion_int4_nonlinear": 0.03462292504329942
+      },
+      {
+        "layer": 4,
+        "R_F_formula": 0.511519093126645,
+        "distortion_ternary_linear": 0.32920470717962264,
+        "distortion_int8_linear": 0.00011909492902165714,
+        "distortion_int4_linear": 0.03546991757443069,
+        "distortion_ternary_nonlinear": 0.35432486054590123,
+        "distortion_int4_nonlinear": 0.0416087347390622
+      },
+      {
+        "layer": 5,
+        "R_F_formula": 0.47784844405374743,
+        "distortion_ternary_linear": 0.31267275562600927,
+        "distortion_int8_linear": 9.088647642844219e-05,
+        "distortion_int4_linear": 0.02778595404236712,
+        "distortion_ternary_nonlinear": 0.3476556833371648,
+        "distortion_int4_nonlinear": 0.0333067792018519
+      },
+      {
+        "layer": 6,
+        "R_F_formula": 0.45795796858749543,
+        "distortion_ternary_linear": 0.31228417527259966,
+        "distortion_int8_linear": 9.159034109232734e-05,
+        "distortion_int4_linear": 0.028942841237520577,
+        "distortion_ternary_nonlinear": 0.3709810381252043,
+        "distortion_int4_nonlinear": 0.03971907574763814
+      },
+      {
+        "layer": 7,
+        "R_F_formula": 0.47954198991920377,
+        "distortion_ternary_linear": 0.3443842104856533,
+        "distortion_int8_linear": 0.00012751919009074296,
+        "distortion_int4_linear": 0.03941469178641811,
+        "distortion_ternary_nonlinear": 0.38816316832060255,
+        "distortion_int4_nonlinear": 0.05350027257442538
+      },
+      {
+        "layer": 8,
+        "R_F_formula": 0.38353948666546406,
+        "distortion_ternary_linear": 0.3228796837824461,
+        "distortion_int8_linear": 8.958456998985339e-05,
+        "distortion_int4_linear": 0.028068496615939686,
+        "distortion_ternary_nonlinear": 0.36729672212614467,
+        "distortion_int4_nonlinear": 0.03737430878769542
+      },
+      {
+        "layer": 9,
+        "R_F_formula": 0.4545428012657752,
+        "distortion_ternary_linear": 0.34918781118582415,
+        "distortion_int8_linear": 0.0001223838341431631,
+        "distortion_int4_linear": 0.03894066022636454,
+        "distortion_ternary_nonlinear": 0.3696898263973303,
+        "distortion_int4_nonlinear": 0.048357147095421285
+      },
+      {
+        "layer": 10,
+        "R_F_formula": 0.2856162898657602,
+        "distortion_ternary_linear": 0.3499110172844228,
+        "distortion_int8_linear": 0.00013082911480358467,
+        "distortion_int4_linear": 0.03781493998734052,
+        "distortion_ternary_nonlinear": 0.37125160404918345,
+        "distortion_int4_nonlinear": 0.04585453112145431
+      },
+      {
+        "layer": 11,
+        "R_F_formula": 0.28693971197619783,
+        "distortion_ternary_linear": 0.37882692484160047,
+        "distortion_int8_linear": 0.00015726795985913916,
+        "distortion_int4_linear": 0.04541931499358041,
+        "distortion_ternary_nonlinear": 0.38799319796414283,
+        "distortion_int4_nonlinear": 0.05166935438095686
+      },
+      {
+        "layer": 12,
+        "R_F_formula": 0.26934779047938207,
+        "distortion_ternary_linear": 0.3636126627712083,
+        "distortion_int8_linear": 0.00010862419880152514,
+        "distortion_int4_linear": 0.03561575538414009,
+        "distortion_ternary_nonlinear": 0.38317634609064155,
+        "distortion_int4_nonlinear": 0.04239851604519498
+      },
+      {
+        "layer": 13,
+        "R_F_formula": 0.24941355899805906,
+        "distortion_ternary_linear": 0.3873658358061667,
+        "distortion_int8_linear": 0.0001442744853479979,
+        "distortion_int4_linear": 0.04501581712458162,
+        "distortion_ternary_nonlinear": 0.39939865607357394,
+        "distortion_int4_nonlinear": 0.05166559772906244
+      },
+      {
+        "layer": 14,
+        "R_F_formula": 0.12999776265214588,
+        "distortion_ternary_linear": 0.3747783077507104,
+        "distortion_int8_linear": 0.00014977476613966856,
+        "distortion_int4_linear": 0.044881839529062856,
+        "distortion_ternary_nonlinear": 0.404003378640282,
+        "distortion_int4_nonlinear": 0.05174060349963057
+      },
+      {
+        "layer": 15,
+        "R_F_formula": 0.2823281257850578,
+        "distortion_ternary_linear": 0.3550470560377012,
+        "distortion_int8_linear": 0.00012909542241795082,
+        "distortion_int4_linear": 0.040061838577232556,
+        "distortion_ternary_nonlinear": 0.38722166018538223,
+        "distortion_int4_nonlinear": 0.05027432158704527
+      },
+      {
+        "layer": 16,
+        "R_F_formula": 0.08811279044715697,
+        "distortion_ternary_linear": 0.3808523841648107,
+        "distortion_int8_linear": 0.0001969977333513806,
+        "distortion_int4_linear": 0.05995010469966002,
+        "distortion_ternary_nonlinear": 0.3881792753985202,
+        "distortion_int4_nonlinear": 0.06324438064848141
+      },
+      {
+        "layer": 17,
+        "R_F_formula": 0.07496535573049982,
+        "distortion_ternary_linear": 0.3746720446240305,
+        "distortion_int8_linear": 0.00013679917291077882,
+        "distortion_int4_linear": 0.044953448031374174,
+        "distortion_ternary_nonlinear": 0.37765584523321527,
+        "distortion_int4_nonlinear": 0.04479027684035284
+      },
+      {
+        "layer": 18,
+        "R_F_formula": 0.021427103032837236,
+        "distortion_ternary_linear": 0.3841994431386576,
+        "distortion_int8_linear": 0.00012778923485333215,
+        "distortion_int4_linear": 0.041791563600136375,
+        "distortion_ternary_nonlinear": 0.3753405215698244,
+        "distortion_int4_nonlinear": 0.03921025603862546
+      },
+      {
+        "layer": 19,
+        "R_F_formula": 0.03204725403682595,
+        "distortion_ternary_linear": 0.388530699797311,
+        "distortion_int8_linear": 0.00015217242076973487,
+        "distortion_int4_linear": 0.04855891294565243,
+        "distortion_ternary_nonlinear": 0.38480967695442886,
+        "distortion_int4_nonlinear": 0.04627067112760805
+      },
+      {
+        "layer": 20,
+        "R_F_formula": 0.003925441003723135,
+        "distortion_ternary_linear": 0.39032361212231226,
+        "distortion_int8_linear": 0.0001513375509208398,
+        "distortion_int4_linear": 0.0478040736537621,
+        "distortion_ternary_nonlinear": 0.38299034470045235,
+        "distortion_int4_nonlinear": 0.04495864993878195
+      },
+      {
+        "layer": 21,
+        "R_F_formula": 0.01903555966922137,
+        "distortion_ternary_linear": 0.41232181763178294,
+        "distortion_int8_linear": 0.0001326287230775035,
+        "distortion_int4_linear": 0.042141649291179875,
+        "distortion_ternary_nonlinear": 1.1749054232719671,
+        "distortion_int4_nonlinear": 0.018652871831876444
+      },
+      {
+        "layer": 22,
+        "R_F_formula": 0.1537702237128881,
+        "distortion_ternary_linear": 0.36965508679949016,
+        "distortion_int8_linear": 0.0001249555642392704,
+        "distortion_int4_linear": 0.04073151931548768,
+        "distortion_ternary_nonlinear": 0.3735871305138835,
+        "distortion_int4_nonlinear": 0.04072363529999108
+      },
+      {
+        "layer": 23,
+        "R_F_formula": 0.273205531647306,
+        "distortion_ternary_linear": 0.3348474186629655,
+        "distortion_int8_linear": 0.00010043645307542646,
+        "distortion_int4_linear": 0.033324311609147186,
+        "distortion_ternary_nonlinear": 0.3795861218970913,
+        "distortion_int4_nonlinear": 0.04015831411369235
+      }
+    ],
+    "correlations": {
+      "distortion_ternary_linear": {
+        "spearman_rho": -0.7713043478260868,
+        "spearman_p": 1.0233451279048088e-05,
+        "pearson_r": -0.7922007039561196,
+        "pearson_p": 3.963762746751475e-06
+      },
+      "distortion_int8_linear": {
+        "spearman_rho": -0.4139130434782608,
+        "spearman_p": 0.044355692190527395,
+        "pearson_r": -0.46246654919371577,
+        "pearson_p": 0.022880404400018418
+      },
+      "distortion_int4_linear": {
+        "spearman_rho": -0.5008695652173912,
+        "spearman_p": 0.012665278925668665,
+        "pearson_r": -0.5460627166000527,
+        "pearson_p": 0.005772172800984583
+      },
+      "distortion_ternary_nonlinear": {
+        "spearman_rho": -0.4591304347826086,
+        "spearman_p": 0.024015134743792063,
+        "pearson_r": -0.30068196902284144,
+        "pearson_p": 0.15338257238551356
+      },
+      "distortion_int4_nonlinear": {
+        "spearman_rho": 0.021739130434782605,
+        "spearman_p": 0.9196887674366272,
+        "pearson_r": 0.010589972215116247,
+        "pearson_p": 0.9608302840734488
+      }
+    }
+  },
+  "qwen2.5-1.5b": {
+    "model_key": "qwen2.5-1.5b",
+    "model_name": "Qwen/Qwen2.5-1.5B",
+    "model_type": "swiglu",
+    "hidden_size": 1536,
+    "num_layers": 28,
+    "layers": [
+      {
+        "layer": 0,
+        "R_F_formula": 0.2880918307386351,
+        "distortion_ternary_linear": 0.3414785187784701,
+        "distortion_int8_linear": 9.164878379207408e-05,
+        "distortion_int4_linear": 0.030058349979179645,
+        "distortion_ternary_nonlinear": 0.35159813883190955,
+        "distortion_int4_nonlinear": 0.03148134983990407
+      },
+      {
+        "layer": 1,
+        "R_F_formula": 0.2366125890487077,
+        "distortion_ternary_linear": 0.36921882898711994,
+        "distortion_int8_linear": 0.00011292424842952842,
+        "distortion_int4_linear": 0.03644656502284403,
+        "distortion_ternary_nonlinear": 0.4375483816488548,
+        "distortion_int4_nonlinear": 0.0371350261638657
+      },
+      {
+        "layer": 2,
+        "R_F_formula": 0.32525435224463467,
+        "distortion_ternary_linear": 0.3549224053748975,
+        "distortion_int8_linear": 0.00010626621325513365,
+        "distortion_int4_linear": 0.03393183987659866,
+        "distortion_ternary_nonlinear": 0.4606022228524843,
+        "distortion_int4_nonlinear": 0.03718929280735241
+      },
+      {
+        "layer": 3,
+        "R_F_formula": 0.36889948015868274,
+        "distortion_ternary_linear": 0.329300770966234,
+        "distortion_int8_linear": 9.345723762193921e-05,
+        "distortion_int4_linear": 0.029920939792073564,
+        "distortion_ternary_nonlinear": 0.362021974354002,
+        "distortion_int4_nonlinear": 0.03528060443380191
+      },
+      {
+        "layer": 4,
+        "R_F_formula": 0.4346766649566343,
+        "distortion_ternary_linear": 0.3076619881241328,
+        "distortion_int8_linear": 8.857519483810016e-05,
+        "distortion_int4_linear": 0.02878528770662222,
+        "distortion_ternary_nonlinear": 0.35385515355980024,
+        "distortion_int4_nonlinear": 0.036415402799035455
+      },
+      {
+        "layer": 5,
+        "R_F_formula": 0.5240369639383257,
+        "distortion_ternary_linear": 0.2971563532789678,
+        "distortion_int8_linear": 8.062973543915371e-05,
+        "distortion_int4_linear": 0.025651886271397296,
+        "distortion_ternary_nonlinear": 0.3316098579312673,
+        "distortion_int4_nonlinear": 0.034009267580656206
+      },
+      {
+        "layer": 6,
+        "R_F_formula": 0.5809636977304016,
+        "distortion_ternary_linear": 0.27744574198830263,
+        "distortion_int8_linear": 7.809932888054598e-05,
+        "distortion_int4_linear": 0.025388361215487786,
+        "distortion_ternary_nonlinear": 0.3381064620982217,
+        "distortion_int4_nonlinear": 0.03762680629186111
+      },
+      {
+        "layer": 7,
+        "R_F_formula": 0.5770432293558027,
+        "distortion_ternary_linear": 0.2851310973476675,
+        "distortion_int8_linear": 9.116931129029251e-05,
+        "distortion_int4_linear": 0.028956228772059545,
+        "distortion_ternary_nonlinear": 0.34492306948022533,
+        "distortion_int4_nonlinear": 0.04374948398559259
+      },
+      {
+        "layer": 8,
+        "R_F_formula": 0.5601236154693675,
+        "distortion_ternary_linear": 0.2839158464945478,
+        "distortion_int8_linear": 8.779904581849099e-05,
+        "distortion_int4_linear": 0.02813714722067494,
+        "distortion_ternary_nonlinear": 0.32855536326408746,
+        "distortion_int4_nonlinear": 0.03974956906663642
+      },
+      {
+        "layer": 9,
+        "R_F_formula": 0.4730862483738685,
+        "distortion_ternary_linear": 0.2956154754150323,
+        "distortion_int8_linear": 8.200319725560312e-05,
+        "distortion_int4_linear": 0.0264582680054113,
+        "distortion_ternary_nonlinear": 0.3335913384882872,
+        "distortion_int4_nonlinear": 0.03499458151034267
+      },
+      {
+        "layer": 10,
+        "R_F_formula": 0.47047363964142547,
+        "distortion_ternary_linear": 0.31107290559650663,
+        "distortion_int8_linear": 8.867432601209073e-05,
+        "distortion_int4_linear": 0.028900886756564204,
+        "distortion_ternary_nonlinear": 0.335710271794373,
+        "distortion_int4_nonlinear": 0.03633847499924131
+      },
+      {
+        "layer": 11,
+        "R_F_formula": 0.4365221497911357,
+        "distortion_ternary_linear": 0.306022007170454,
+        "distortion_int8_linear": 8.133789211987968e-05,
+        "distortion_int4_linear": 0.026622545408293778,
+        "distortion_ternary_nonlinear": 0.3360592649771594,
+        "distortion_int4_nonlinear": 0.03372328612654865
+      },
+      {
+        "layer": 12,
+        "R_F_formula": 0.3810648583618898,
+        "distortion_ternary_linear": 0.3289294531157271,
+        "distortion_int8_linear": 0.00010835709200664391,
+        "distortion_int4_linear": 0.034665921443529625,
+        "distortion_ternary_nonlinear": 0.3489393476441015,
+        "distortion_int4_nonlinear": 0.04094402017770533
+      },
+      {
+        "layer": 13,
+        "R_F_formula": 0.33368056142479474,
+        "distortion_ternary_linear": 0.32012585804234583,
+        "distortion_int8_linear": 9.318758514950849e-05,
+        "distortion_int4_linear": 0.030140584402091275,
+        "distortion_ternary_nonlinear": 0.3508835477678097,
+        "distortion_int4_nonlinear": 0.03704660358223595
+      },
+      {
+        "layer": 14,
+        "R_F_formula": 0.35990840581571876,
+        "distortion_ternary_linear": 0.3438071583851069,
+        "distortion_int8_linear": 0.00013091941027605164,
+        "distortion_int4_linear": 0.04107428533491878,
+        "distortion_ternary_nonlinear": 0.3575510279641594,
+        "distortion_int4_nonlinear": 0.04814668263363077
+      },
+      {
+        "layer": 15,
+        "R_F_formula": 0.2720318569097308,
+        "distortion_ternary_linear": 0.33191426045959316,
+        "distortion_int8_linear": 0.0001153272820696464,
+        "distortion_int4_linear": 0.036130784081062337,
+        "distortion_ternary_nonlinear": 0.3324368761561902,
+        "distortion_int4_nonlinear": 0.03938771188490524
+      },
+      {
+        "layer": 16,
+        "R_F_formula": 0.25734348949918034,
+        "distortion_ternary_linear": 0.3504642015996017,
+        "distortion_int8_linear": 0.0001249423271691243,
+        "distortion_int4_linear": 0.03979034268531429,
+        "distortion_ternary_nonlinear": 0.3537085803677709,
+        "distortion_int4_nonlinear": 0.04333751489381238
+      },
+      {
+        "layer": 17,
+        "R_F_formula": 0.20675251037445305,
+        "distortion_ternary_linear": 0.3473776628632415,
+        "distortion_int8_linear": 0.00011160811876080359,
+        "distortion_int4_linear": 0.03642335510161813,
+        "distortion_ternary_nonlinear": 0.361299086400544,
+        "distortion_int4_nonlinear": 0.04087945742808445
+      },
+      {
+        "layer": 18,
+        "R_F_formula": 0.11111162240092547,
+        "distortion_ternary_linear": 0.3620099549227932,
+        "distortion_int8_linear": 0.00012505989685464278,
+        "distortion_int4_linear": 0.04052895988456795,
+        "distortion_ternary_nonlinear": 0.3737435728004354,
+        "distortion_int4_nonlinear": 0.04340189289334856
+      },
+      {
+        "layer": 19,
+        "R_F_formula": 0.1479320834202479,
+        "distortion_ternary_linear": 0.35836441935720686,
+        "distortion_int8_linear": 0.0001389812494168823,
+        "distortion_int4_linear": 0.043615371984129424,
+        "distortion_ternary_nonlinear": 0.3653856703602617,
+        "distortion_int4_nonlinear": 0.04677418689471719
+      },
+      {
+        "layer": 20,
+        "R_F_formula": 0.09220900915330202,
+        "distortion_ternary_linear": 0.3522294893239741,
+        "distortion_int8_linear": 0.00011516096739374863,
+        "distortion_int4_linear": 0.037532975631622646,
+        "distortion_ternary_nonlinear": 0.3691056144154937,
+        "distortion_int4_nonlinear": 0.04013483385894375
+      },
+      {
+        "layer": 21,
+        "R_F_formula": 0.15177524858613903,
+        "distortion_ternary_linear": 0.3432886525953409,
+        "distortion_int8_linear": 0.00011545694414838618,
+        "distortion_int4_linear": 0.03663458292889406,
+        "distortion_ternary_nonlinear": 0.3595767205264676,
+        "distortion_int4_nonlinear": 0.03934771332784956
+      },
+      {
+        "layer": 22,
+        "R_F_formula": 0.07172835883120834,
+        "distortion_ternary_linear": 0.3606007679282345,
+        "distortion_int8_linear": 0.00012306089104550908,
+        "distortion_int4_linear": 0.03908359980499894,
+        "distortion_ternary_nonlinear": 0.3684646298257427,
+        "distortion_int4_nonlinear": 0.04011848573557376
+      },
+      {
+        "layer": 23,
+        "R_F_formula": 0.022437520965188258,
+        "distortion_ternary_linear": 0.37517405640638957,
+        "distortion_int8_linear": 0.00014113218508646975,
+        "distortion_int4_linear": 0.045350643247325004,
+        "distortion_ternary_nonlinear": 0.369682787859511,
+        "distortion_int4_nonlinear": 0.04366754226185239
+      },
+      {
+        "layer": 24,
+        "R_F_formula": 0.004673741531839694,
+        "distortion_ternary_linear": 0.38394979860338097,
+        "distortion_int8_linear": 0.0001255706993052758,
+        "distortion_int4_linear": 0.0408125791116599,
+        "distortion_ternary_nonlinear": 0.36943059488619523,
+        "distortion_int4_nonlinear": 0.03743454506727974
+      },
+      {
+        "layer": 25,
+        "R_F_formula": 0.049006248944275306,
+        "distortion_ternary_linear": 0.38180341464955747,
+        "distortion_int8_linear": 0.0001333521202179924,
+        "distortion_int4_linear": 0.04324844930890816,
+        "distortion_ternary_nonlinear": 0.3682263643795835,
+        "distortion_int4_nonlinear": 0.03982853549528507
+      },
+      {
+        "layer": 26,
+        "R_F_formula": 0.16462657488964505,
+        "distortion_ternary_linear": 0.3840467586856353,
+        "distortion_int8_linear": 0.0001167500631030584,
+        "distortion_int4_linear": 0.0374849692685333,
+        "distortion_ternary_nonlinear": 1.0925673679816086,
+        "distortion_int4_nonlinear": 0.022987982019041234
+      },
+      {
+        "layer": 27,
+        "R_F_formula": 0.24782590162087134,
+        "distortion_ternary_linear": 0.34038552081938767,
+        "distortion_int8_linear": 0.00014042867360935496,
+        "distortion_int4_linear": 0.04665759617896816,
+        "distortion_ternary_nonlinear": 0.37737607327462064,
+        "distortion_int4_nonlinear": 0.05128208445674359
+      }
+    ],
+    "correlations": {
+      "distortion_ternary_linear": {
+        "spearman_rho": -0.9168035030103995,
+        "spearman_p": 7.243997927615363e-12,
+        "pearson_r": -0.9276527580151266,
+        "pearson_p": 1.2539270215133105e-12
+      },
+      "distortion_int8_linear": {
+        "spearman_rho": -0.8390804597701149,
+        "spearman_p": 2.431592137404447e-08,
+        "pearson_r": -0.8202174701953955,
+        "pearson_p": 9.170773859050765e-08
+      },
+      "distortion_int4_linear": {
+        "spearman_rho": -0.8505747126436781,
+        "spearman_p": 9.938325513529881e-09,
+        "pearson_r": -0.8300769628907485,
+        "pearson_p": 4.6750274595376494e-08
+      },
+      "distortion_ternary_nonlinear": {
+        "spearman_rho": -0.7471264367816092,
+        "spearman_p": 4.934969248217763e-06,
+        "pearson_r": -0.22260330750063248,
+        "pearson_p": 0.2548866487564173
+      },
+      "distortion_int4_nonlinear": {
+        "spearman_rho": -0.3158182813355227,
+        "spearman_p": 0.10159433299553895,
+        "pearson_r": -0.1584860629179984,
+        "pearson_p": 0.4205285785530393
+      }
+    }
+  },
+  "phi-2": {
+    "model_key": "phi-2",
+    "model_name": "microsoft/phi-2",
+    "model_type": "phi2",
+    "hidden_size": 2560,
+    "num_layers": 32,
+    "layers": [
+      {
+        "layer": 0,
+        "R_F_formula": 0.05415178041506706,
+        "distortion_ternary_linear": 0.8444488887675687,
+        "distortion_int8_linear": 0.00014311843650648059,
+        "distortion_int4_linear": 0.023073561924170115,
+        "distortion_ternary_nonlinear": 0.8506066235758114,
+        "distortion_int4_nonlinear": 0.03637723477602104
+      },
+      {
+        "layer": 1,
+        "R_F_formula": 0.05140875213606678,
+        "distortion_ternary_linear": 0.6250155878285646,
+        "distortion_int8_linear": 0.0001089336327445048,
+        "distortion_int4_linear": 0.030078507400243343,
+        "distortion_ternary_nonlinear": 0.8710190433410541,
+        "distortion_int4_nonlinear": 0.04672941369651304
+      },
+      {
+        "layer": 2,
+        "R_F_formula": 0.02404555848853428,
+        "distortion_ternary_linear": 0.8337042129642895,
+        "distortion_int8_linear": 0.00012577318548934042,
+        "distortion_int4_linear": 0.015380474508385571,
+        "distortion_ternary_nonlinear": 1.0894767363420148,
+        "distortion_int4_nonlinear": 0.0331733795715596
+      },
+      {
+        "layer": 3,
+        "R_F_formula": 0.0025966868039584137,
+        "distortion_ternary_linear": 0.8127867866169511,
+        "distortion_int8_linear": 0.00012761374149058876,
+        "distortion_int4_linear": 0.01702652261328184,
+        "distortion_ternary_nonlinear": 0.8636102272131405,
+        "distortion_int4_nonlinear": 0.01976928631889514
+      },
+      {
+        "layer": 4,
+        "R_F_formula": 0.021857301804270257,
+        "distortion_ternary_linear": 0.6299040817523988,
+        "distortion_int8_linear": 0.0001673520065418112,
+        "distortion_int4_linear": 0.025499842656061138,
+        "distortion_ternary_nonlinear": 0.6619806289277412,
+        "distortion_int4_nonlinear": 0.028829371898395444
+      },
+      {
+        "layer": 5,
+        "R_F_formula": 0.0008483571158510181,
+        "distortion_ternary_linear": 0.44206033641204623,
+        "distortion_int8_linear": 0.0001944490762156666,
+        "distortion_int4_linear": 0.04173795801558612,
+        "distortion_ternary_nonlinear": 0.49432452020390427,
+        "distortion_int4_nonlinear": 0.049959219994176685
+      },
+      {
+        "layer": 6,
+        "R_F_formula": 0.002733669786470907,
+        "distortion_ternary_linear": 0.4942487037125991,
+        "distortion_int8_linear": 0.00021627767464112456,
+        "distortion_int4_linear": 0.041875078736873204,
+        "distortion_ternary_nonlinear": 0.533278531931035,
+        "distortion_int4_nonlinear": 0.04363293033376979
+      },
+      {
+        "layer": 7,
+        "R_F_formula": 0.011884361952588693,
+        "distortion_ternary_linear": 0.4013430210560126,
+        "distortion_int8_linear": 0.00015225580409745844,
+        "distortion_int4_linear": 0.041510674495019634,
+        "distortion_ternary_nonlinear": 0.4241326223520199,
+        "distortion_int4_nonlinear": 0.04445930275635934
+      },
+      {
+        "layer": 8,
+        "R_F_formula": 0.008252428303977759,
+        "distortion_ternary_linear": 0.39584172074687085,
+        "distortion_int8_linear": 0.00012666944158081775,
+        "distortion_int4_linear": 0.040640269607387355,
+        "distortion_ternary_nonlinear": 0.4146093603928217,
+        "distortion_int4_nonlinear": 0.043267815328902184
+      },
+      {
+        "layer": 9,
+        "R_F_formula": 0.0017910558345648542,
+        "distortion_ternary_linear": 0.42536018062711617,
+        "distortion_int8_linear": 0.00019359671058488003,
+        "distortion_int4_linear": 0.04806697943489741,
+        "distortion_ternary_nonlinear": 0.4480309443422252,
+        "distortion_int4_nonlinear": 0.052409944558963265
+      },
+      {
+        "layer": 10,
+        "R_F_formula": 0.00206211586105869,
+        "distortion_ternary_linear": 0.3971387085586362,
+        "distortion_int8_linear": 0.00013780054552502111,
+        "distortion_int4_linear": 0.04253428196982031,
+        "distortion_ternary_nonlinear": 0.4412506913975589,
+        "distortion_int4_nonlinear": 0.0499846523333878
+      },
+      {
+        "layer": 11,
+        "R_F_formula": 0.0038812283009803713,
+        "distortion_ternary_linear": 0.40562796256309425,
+        "distortion_int8_linear": 0.00016021455104926885,
+        "distortion_int4_linear": 0.04839360298395974,
+        "distortion_ternary_nonlinear": 0.46381482150624775,
+        "distortion_int4_nonlinear": 0.05838002777622674
+      },
+      {
+        "layer": 12,
+        "R_F_formula": 0.0007910881087109892,
+        "distortion_ternary_linear": 0.40515335814180425,
+        "distortion_int8_linear": 0.00013517630487922772,
+        "distortion_int4_linear": 0.04411809019822878,
+        "distortion_ternary_nonlinear": 0.45862286381797784,
+        "distortion_int4_nonlinear": 0.05396864417012921
+      },
+      {
+        "layer": 13,
+        "R_F_formula": 0.0007837423783521303,
+        "distortion_ternary_linear": 0.40040862447081416,
+        "distortion_int8_linear": 0.00012606293327942225,
+        "distortion_int4_linear": 0.0411349977290935,
+        "distortion_ternary_nonlinear": 0.44213502233482727,
+        "distortion_int4_nonlinear": 0.04894971370270245
+      },
+      {
+        "layer": 14,
+        "R_F_formula": 0.0008297989286522503,
+        "distortion_ternary_linear": 0.3991522758441044,
+        "distortion_int8_linear": 0.00012912592473604564,
+        "distortion_int4_linear": 0.0423989713472742,
+        "distortion_ternary_nonlinear": 0.4502250222906584,
+        "distortion_int4_nonlinear": 0.051033572191063505
+      },
+      {
+        "layer": 15,
+        "R_F_formula": 0.015003335289989468,
+        "distortion_ternary_linear": 0.40813489216550114,
+        "distortion_int8_linear": 0.00013955946351551043,
+        "distortion_int4_linear": 0.045472558372040166,
+        "distortion_ternary_nonlinear": 0.46481745376510447,
+        "distortion_int4_nonlinear": 0.057664677749169044
+      },
+      {
+        "layer": 16,
+        "R_F_formula": 0.0011099781354515217,
+        "distortion_ternary_linear": 0.40644962559071446,
+        "distortion_int8_linear": 0.00013157282349101018,
+        "distortion_int4_linear": 0.04307301600511197,
+        "distortion_ternary_nonlinear": 0.45247654666407955,
+        "distortion_int4_nonlinear": 0.051115893621926936
+      },
+      {
+        "layer": 17,
+        "R_F_formula": 0.03343591112261197,
+        "distortion_ternary_linear": 0.41218305086478946,
+        "distortion_int8_linear": 0.00015403034146237082,
+        "distortion_int4_linear": 0.048064562168309656,
+        "distortion_ternary_nonlinear": 0.4727973874967045,
+        "distortion_int4_nonlinear": 0.057974939077811385
+      },
+      {
+        "layer": 18,
+        "R_F_formula": 0.04046692338562438,
+        "distortion_ternary_linear": 0.4137638702417151,
+        "distortion_int8_linear": 0.00014276935136012654,
+        "distortion_int4_linear": 0.04654835128800658,
+        "distortion_ternary_nonlinear": 0.46605214750210405,
+        "distortion_int4_nonlinear": 0.05591436791531231
+      },
+      {
+        "layer": 19,
+        "R_F_formula": 0.000738819008114928,
+        "distortion_ternary_linear": 0.40895995290964604,
+        "distortion_int8_linear": 0.00012592020290716418,
+        "distortion_int4_linear": 0.0414444388917124,
+        "distortion_ternary_nonlinear": 0.4455934223910024,
+        "distortion_int4_nonlinear": 0.04783264428416171
+      },
+      {
+        "layer": 20,
+        "R_F_formula": 0.008019400945649822,
+        "distortion_ternary_linear": 0.42001610317629534,
+        "distortion_int8_linear": 0.00014446187688201857,
+        "distortion_int4_linear": 0.047214404787563766,
+        "distortion_ternary_nonlinear": 0.46145556767845664,
+        "distortion_int4_nonlinear": 0.05697063820807913
+      },
+      {
+        "layer": 21,
+        "R_F_formula": 0.0012369153269597576,
+        "distortion_ternary_linear": 0.4094736104695815,
+        "distortion_int8_linear": 0.0001420320074956357,
+        "distortion_int4_linear": 0.04645351780130656,
+        "distortion_ternary_nonlinear": 0.4307497009946646,
+        "distortion_int4_nonlinear": 0.05056316254695342
+      },
+      {
+        "layer": 22,
+        "R_F_formula": 0.0006383684257684515,
+        "distortion_ternary_linear": 0.41151534753320984,
+        "distortion_int8_linear": 0.0001360057406209655,
+        "distortion_int4_linear": 0.04629694786722183,
+        "distortion_ternary_nonlinear": 0.44440907498660864,
+        "distortion_int4_nonlinear": 0.057275130871401625
+      },
+      {
+        "layer": 23,
+        "R_F_formula": 0.002616708581016038,
+        "distortion_ternary_linear": 0.42167448171889427,
+        "distortion_int8_linear": 0.00014744856925808368,
+        "distortion_int4_linear": 0.0487532249272193,
+        "distortion_ternary_nonlinear": 0.46065801132857304,
+        "distortion_int4_nonlinear": 0.05817842513900025
+      },
+      {
+        "layer": 24,
+        "R_F_formula": 0.0013243325327447282,
+        "distortion_ternary_linear": 0.42498086319844236,
+        "distortion_int8_linear": 0.00017358745566040243,
+        "distortion_int4_linear": 0.05549011682354976,
+        "distortion_ternary_nonlinear": 0.4678436032609105,
+        "distortion_int4_nonlinear": 0.07118015621123885
+      },
+      {
+        "layer": 25,
+        "R_F_formula": 0.0038014928054768346,
+        "distortion_ternary_linear": 0.42956676692200696,
+        "distortion_int8_linear": 0.0001769233243577887,
+        "distortion_int4_linear": 0.05806214696555416,
+        "distortion_ternary_nonlinear": 0.46336882761440695,
+        "distortion_int4_nonlinear": 0.07109276790950562
+      },
+      {
+        "layer": 26,
+        "R_F_formula": 0.04329458518494312,
+        "distortion_ternary_linear": 0.4318048555069187,
+        "distortion_int8_linear": 0.00019264483182151177,
+        "distortion_int4_linear": 0.06253029112430661,
+        "distortion_ternary_nonlinear": 0.46682052301312893,
+        "distortion_int4_nonlinear": 0.08057984531399869
+      },
+      {
+        "layer": 27,
+        "R_F_formula": 0.04247146636486237,
+        "distortion_ternary_linear": 0.4466705843020226,
+        "distortion_int8_linear": 0.00022860664321362506,
+        "distortion_int4_linear": 0.0722205199611901,
+        "distortion_ternary_nonlinear": 0.5010204989472705,
+        "distortion_int4_nonlinear": 0.09537670171727652
+      },
+      {
+        "layer": 28,
+        "R_F_formula": 0.0672775721560562,
+        "distortion_ternary_linear": 0.4456584660951255,
+        "distortion_int8_linear": 0.00022101010733243222,
+        "distortion_int4_linear": 0.06956696401395837,
+        "distortion_ternary_nonlinear": 0.47956727875593375,
+        "distortion_int4_nonlinear": 0.0894410938444513
+      },
+      {
+        "layer": 29,
+        "R_F_formula": 0.08896031337612981,
+        "distortion_ternary_linear": 0.4384334067018817,
+        "distortion_int8_linear": 0.00023889285495904593,
+        "distortion_int4_linear": 0.07048475072829394,
+        "distortion_ternary_nonlinear": 0.4171577065514224,
+        "distortion_int4_nonlinear": 0.07962396464946107
+      },
+      {
+        "layer": 30,
+        "R_F_formula": 0.12326272414660487,
+        "distortion_ternary_linear": 0.46602539435755685,
+        "distortion_int8_linear": 0.0002802129492688715,
+        "distortion_int4_linear": 0.08989098995299366,
+        "distortion_ternary_nonlinear": 0.3938786455194184,
+        "distortion_int4_nonlinear": 0.22869764485485838
+      },
+      {
+        "layer": 31,
+        "R_F_formula": 0.24959943085233002,
+        "distortion_ternary_linear": 0.4675659010725843,
+        "distortion_int8_linear": 0.0002476058032553219,
+        "distortion_int4_linear": 0.09362169654415176,
+        "distortion_ternary_nonlinear": 0.609872981261167,
+        "distortion_int4_nonlinear": 0.25512973060388455
+      }
+    ],
+    "correlations": {
+      "distortion_ternary_linear": {
+        "spearman_rho": 0.5480205278592375,
+        "spearman_p": 0.0011666123529378673,
+        "pearson_r": 0.10623689612573423,
+        "pearson_p": 0.5627927489727012
+      },
+      "distortion_int8_linear": {
+        "spearman_rho": 0.47727272727272724,
+        "spearman_p": 0.0057419339133898345,
+        "pearson_r": 0.6336187128111186,
+        "pearson_p": 9.903770072965032e-05
+      },
+      "distortion_int4_linear": {
+        "spearman_rho": 0.3379765395894428,
+        "spearman_p": 0.058501899800589445,
+        "pearson_r": 0.6588169244677039,
+        "pearson_p": 4.135465127809817e-05
+      },
+      "distortion_ternary_nonlinear": {
+        "spearman_rho": 0.33357771260997066,
+        "spearman_p": 0.062073922331174786,
+        "pearson_r": 0.12762906826418505,
+        "pearson_p": 0.4863603127115632
+      },
+      "distortion_int4_nonlinear": {
+        "spearman_rho": 0.3310117302052786,
+        "spearman_p": 0.06423532607447902,
+        "pearson_r": 0.8659193909054225,
+        "pearson_p": 1.555045177610755e-10
+      }
+    }
+  }
+}
