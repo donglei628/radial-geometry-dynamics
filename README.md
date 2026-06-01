@@ -1,4 +1,4 @@
-# radial-ignition
+# radial-geometry-dynamics
 
 Companion code, pre-computed results, and figures for the paper
 
@@ -61,7 +61,7 @@ reproduce the paper's figures offline.
 ## Layout
 
 ```
-radial-ignition/
+radial-geometry-dynamics/
 ├── experiments/
 │   ├── e1_common.py                 # core: radial_fraction(), input generators, I/O
 │   ├── exp_batch_free_metrics.py    # MODEL_CONFIGS, get_layers(), extract_mlp_weights()
