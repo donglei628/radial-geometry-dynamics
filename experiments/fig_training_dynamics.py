@@ -46,7 +46,7 @@ mm = np.linspace(min(ms) * 0.9, max(ms) * 1.05, 100)
 ax[1].plot(mm, 1 / mm, 'k--', lw=1, label=r'theory $1/m$')
 ax[1].set_xscale('log'); ax[1].set_yscale('log')
 ax[1].set_xlabel('width $m$'); ax[1].set_ylabel(r'init $R_F$ (layer mean)')
-ax[1].set_title('(b) Floor: init $R_F=1/m$ (4 s.f.)')
+ax[1].set_title('(b) Floor: init $R_F=1/m$')
 for mk, m, v in zip(MODELS, ms, init):
     ax[1].annotate(f'std={A[mk]["init_rf_std"]:.0e}', (m, v), fontsize=9,
                    textcoords='offset points', xytext=(4, -8))

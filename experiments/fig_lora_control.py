@@ -30,12 +30,11 @@ for c in order:
         x = order.index(c)
         ax.scatter(np.full(len(vals[c]), x) + np.random.RandomState(0).uniform(-0.15, 0.15, len(vals[c])),
                    vals[c], color='#3b2d6b', s=18, zorder=3, label='random draws')
-ax.axhline(d['base_val_ppl'], color='k', ls='--', lw=1, alpha=0.6)
-ax.text(len(order) - 0.5, d['base_val_ppl'] + 0.05, f"base (no-FT) {d['base_val_ppl']:.2f}",
-        ha='right', va='bottom', fontsize=8)
+ax.text(0.98, 0.96, f"base (no fine-tuning): {d['base_val_ppl']:.2f}",
+        transform=ax.transAxes, ha='right', va='top', fontsize=8, color='#555')
 ax.set_xticks(xs); ax.set_xticklabels([lab[c] for c in order])
 ax.set_ylabel('validation PPL (lower better)')
-ax.set_ylim(10.7, max(means) + 0.4)
+ax.set_ylim(10.8, max(m + s for m, s in zip(means, stds)) + 0.15)
 ax.set_title('LoRA layer selection (8 layers, rank 8, equal params)')
 ax.grid(axis='y', alpha=0.3, zorder=0)
 ax.legend(fontsize=8, loc='upper left')
