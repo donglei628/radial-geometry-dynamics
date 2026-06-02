@@ -81,18 +81,18 @@ radial-geometry-dynamics/
 | Paper claim | Section | Script(s) | Result JSON | Figure |
 |---|---|---|---|---|
 | Trace formula is exact (ratio ≈ 1.00) | §2–3 | `round5_trace_formula.py` | `trace_formula_verification.json` | — |
-| **P1** floor `E[R_F]=1/m` (distribution-free) | §3, Lemma 1 | `verify_lemma1_floor.py` | (Monte-Carlo, printed) | — |
+| **P1** floor `E[R_F]=1/m` (distribution-free) | §3, Lemma 3.2 | `verify_lemma1_floor.py` | (Monte-Carlo, printed) | — |
 | **P2** ignition sigmoid, `t* ∝ ln(1/ε)`, R²=1.0 | §3 | `exp_ignition_theory.py`, `v4_exp_ignition_theory.py`, `exp_lemma2_ignition.py`, `exp_ignition_mechanism.py` | `exp_ignition_theory.json`, `v4_exp_ignition_theory.json`, `exp_lemma2_ignition.json` | — |
-| **P1–P3** on Pythia (floor to 0.05%, scale-amplified differentiation, geometry **lags** loss) | §4 | `exp_batch_training_dynamics.py`, `exp_4_05_loss.py` | `exp_batch_training_dynamics.json`, `exp_4_05_loss.json` | `fig_training_dynamics` |
-| Parameter-free floor + post-ignition on **OLMo** (SwiGLU) | §4 | `exp_olmo_dynamics.py` | `exp_olmo_dynamics.json` | `fig_olmo` |
+| **P1–P3** on Pythia (floor to 0.05%, scale-amplified differentiation, geometry **lags** loss) | §5 | `exp_batch_training_dynamics.py`, `exp_4_05_loss.py` | `exp_batch_training_dynamics.json`, `exp_4_05_loss.json` | `fig_training_dynamics` |
+| Parameter-free floor + post-ignition on **OLMo** (SwiGLU) | §5 | `exp_olmo_dynamics.py` | `exp_olmo_dynamics.json` | `fig_olmo` |
 | Loss–geometry lag is **causal**: `β ln(1/ε)`, r=1.0 | §3 / App | `exp_epsilon_sweep_lag.py` | `exp_epsilon_sweep_lag.json`, `exp_epsilon_lag_c_robustness.json` | `fig_epsilon_lag` |
 | Saturation = participation ratio (synthetic, 1.2% err) | §6 / App | `saturation/exp_saturation.py` | `saturation/exp_saturation.json` | `fig_saturation` |
 | `R_F ≈ rank × coherence²`; coherence governs R_F (ρ=0.99 vs 0.63), 7 models / 158 layers | §6 | `saturation/exp_nonnormality.py` | `saturation/exp_nonnormality.json` | `fig_nonnormality` |
 | Ignition builds **coherence ×490 at fixed rank** (Pythia-160m) | §6 | `saturation/exp_nonnormality_training.py` | `saturation/exp_nonnormality_training.json` | `fig_nonnormality_training` |
 | R_F near-orthogonal to HT-SR yet keeps unique functional signal | §6 / related | `exp_htsr_shootout.py`, `analyze_htsr.py` | `exp_htsr_shootout.json` | — |
 | Nonlinearity inverts the functional radial sign; localized to the **SwiGLU gate** | §geometry | `exp_sign_flip_attribution.py`, `verify_angular_sign.py`, `check_sign_reversal.py` | `exp_sign_flip_attribution.json`, `verify_angular_sign.json` | — |
-| R_F is a **fragile** per-layer quantization predictor | §limitations | `lp_stage_a_quant_distortion.py`, `lp_stage_b_mixed_precision.py`, `exp_quant_formats.py` | `quant_stage_a_rf_distortion.json`, `quant_stage_b_mixed_precision.json`, `exp_quant_formats.json` | — |
-| R_F-guided LoRA selection does **not** beat random | §5 | `exp_lora_control.py` | `exp_lora_control.json` | `fig_lora_control` |
+| R_F is a **fragile** per-layer quantization predictor (Spearman ρ −0.92…+0.55, sign-inconsistent; R_F-guided mixed-precision loses to random) | §9, App F (Table 3) | `lp_stage_a_quant_distortion.py`, `lp_stage_b_mixed_precision.py`, `exp_quant_formats.py` | `quant_stage_a_rf_distortion.json`, `quant_stage_b_mixed_precision.json`, `exp_quant_formats.json` | — |
+| R_F-guided LoRA selection does **not** beat random | §7 | `exp_lora_control.py` | `exp_lora_control.json` | `fig_lora_control` |
 
 The last three rows are reported in the paper as **negative / honest-scope results** (R_F is not a
 quantization router, not a LoRA selector, and is sign-blind). The committed JSONs contain the full
