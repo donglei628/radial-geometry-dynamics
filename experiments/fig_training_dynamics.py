@@ -64,11 +64,11 @@ ax[2].plot(xm, 100 * std_prog, '-o', ms=3, color='#C44E52', label='$R_F$ diverge
 ax[2].axvline(512, color='#333', ls=':', lw=1); ax[2].axvline(4000, color='#C44E52', ls=':', lw=1)
 ax[2].set_xscale('log'); ax[2].set_xlabel('training step'); ax[2].set_ylabel('% of total change')
 ax[2].set_title('(c) Geometry lags loss ($\\rho=0.98$)')
-ax[2].annotate('loss 99%\nby step 512', (512, 50), fontsize=9, color='#333',
-               textcoords='offset points', xytext=(6, -2))
-ax[2].annotate('$R_F$ 50%\nby step 4000', (4000, 50), fontsize=9, color='#C44E52',
-               textcoords='offset points', xytext=(6, -20))
-ax[2].legend(fontsize=10, loc='center left')
+ax[2].annotate('loss 99% by 512', (512, 50), fontsize=9, color='#333', ha='left', va='bottom',
+               textcoords='offset points', xytext=(6, 7))
+ax[2].annotate('$R_F$ 50% by 4000', (4000, 50), fontsize=9, color='#C44E52', ha='left', va='top',
+               textcoords='offset points', xytext=(6, -9))
+ax[2].legend(fontsize=9, loc='lower right')
 
 # (d) scaling: amplification and position-structure vs size
 amp = [A[mk]['divergence_amplification'] for mk in MODELS]
