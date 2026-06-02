@@ -63,7 +63,7 @@ ax[2].plot(xm, 100 * ppl_prog, '-s', ms=3, color='#333', label='loss drop (% don
 ax[2].plot(xm, 100 * std_prog, '-o', ms=3, color='#C44E52', label='$R_F$ divergence (% done)')
 ax[2].axvline(512, color='#333', ls=':', lw=1); ax[2].axvline(4000, color='#C44E52', ls=':', lw=1)
 ax[2].set_xscale('log'); ax[2].set_xlabel('training step'); ax[2].set_ylabel('% of total change')
-ax[2].set_title('(c) Geometry lags loss ($\\rho=0.98$)')
+ax[2].set_title('(c) Geometry lags loss')
 ax[2].annotate('loss 99% by 512', (512, 50), fontsize=9, color='#333', ha='left', va='bottom',
                textcoords='offset points', xytext=(6, 7))
 ax[2].annotate('$R_F$ 50% by 4000', (4000, 50), fontsize=9, color='#C44E52', ha='left', va='top',
